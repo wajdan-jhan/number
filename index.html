@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Debt</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Roboto font from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <aside class="logo-side">
+                    <p>Sponsored Post</p>
+                    <img src="./assets/images/with-US-flag_300p.png" alt="">
+                </aside>
+                <aside class="number-side">
+                    <p>Call Before <span style="font-weight: 700;"> 2:00 AM </span></p>
+                    <button class="elementor-button">
+                        <span class="number">
+                            <i class="fas fa-phone-alt " style="margin-right: 14px;"></i>
+                            (877) 386-0079
+                        </span>
+                    </button>
+                </aside>
+            </nav>
+        </div>
+    </header>
+    <section style="height: 20px;background-color: #f9fafb;"></section>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-section">
+                <h4>
+                    Americans With Over $10,000 In Credit Card Debt Could Qualify For $1,000s Back In Their Pockets,
+                    Through Program Savings!
+                </h4>
+                <div class="text-center mt-3">
+                    <img src="./assets/images/money-band.webp" class="dolor" alt="">
+                    <h4 class="mt-3">
+                        Take The Short Quiz To See If You Qualify For A Free Debt Review
+                    </h4>
+                </div>
+            </div>
+            <div class="w3-light-grey">
+                <div id="myBar" class="">
+                    <div class="green">
+                        20%</div>
+                </div>
+            </div>
+            <div id="question-container">
+                <div class="blue_c">
+                    <p class="blue_p">Reviewing Your Answer</p><br>
+                    <strong>CONGRATULATIONS! You pre-qualify to get $1,000s back in your pocket, through this Credit
+                        Card Debt Giveback Program.</strong>
+                    <h2>TAP TO CALL NOW</h2>
+
+                    <button href="tel:+1(888) 860-0924" class="call_us_b">1(888) 860-0924</button><br>
+
+                    <h3>Act fast! A Debt Specialist Is Waiting With Your Free Review 0:01</h3>
+                    <div id="loader" class="loader"></div>
+                </div>
+                <p id="question">Do You Live In The United States?<span style="color: red;"> *</span></p>
+                <div id="options">
+                    <button class="options">Yes</button><br>
+                    <button class="options2">No</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer-img d-flex pb-3 justify-content-between" style="flex-wrap: wrap;">
+                <div class=" p-[10px]">
+                    <img src="./assets/images/with-US-flag-WHITE_300p.png" alt="">
+
+                    <p>We are the go to resource for figuring out how to get your finances into check. Learn financial
+                        strategies, find resources, and more.</p>
+
+                </div>
+                <!-- phone num -->
+                <div class="d-flex align-items-end mob-btn">
+                    <button class="footer-btn">
+                        <i class="fas fa-phone-alt " style="margin-right: 14px;"></i>
+
+                        (877) 386-0079
+                    </button>
+                </div>
+            </div>
+            <div style="padding: 10px 0px;">
+                <div class="divider" style="border: 1px solid #969696;">
+
+                </div>
+            </div>
+            <div class="pt-4">
+                <p class="desc">
+                    Videos are paid actor representative testimonials. For email assistance, please contact
+                    support@thedebtbureau.org or Call (800) 541-8589 Your results will vary depending on how much debt
+                    you are starting with, the effort you put in, timeliness of your payments, and the diligence you use
+                    in following our methods. This website is intended for informational purposes and as a reference
+                    tool to match consumers with companies that may be able to assist them. The Debt Bureau is a
+                    referral company. By calling and/or submitting your information to the company, it will share it
+                    with or forward your call to outside affiliates that pay The Debt Bureau to match consumers with
+                    their services. Our goal is to provide exceptional service. One of our agents may reach out to you
+                    to discuss your order, ask for feedback, and / or see if you need any assistance with your products,
+                    services, or plans, at the phone number you provided regardless of your do-not-call list status. You
+                    may opt out of further contact at any time by simply telling our customer service team that you
+                    would no longer like to be contacted. In the event that our team is unable to reach you by phone,
+                    they may send you a text message letting you know that we called. Both our text messages and phone
+                    calls may be sent or connected utilizing automated software. Carrier charges may apply. You may opt
+                    out of any future contact via text message by replying anytime with “STOP”.
+                </p>
+                <div class="d-flex align-items-center mb-4" style="gap: 10px;">
+                    <p class="m-0" style=" color: #B0BEC5;transition: color 0.3s;">Privacy Ploicy</p>
+                    <div style="border: .5px solid white; height: 17px;"></div>
+                    <p class="m-0" style=" color: #B0BEC5;transition: color 0.3s;"> Terms of Service</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!-- Button to trigger the phone dial popup in the footer -->
+<button class="footer-btn" onclick="showPhoneDialPopup('tel:+18773860079')">
+    <i class="fas fa-phone-alt" style="margin-right: 14px;"></i>
+    (877) 386-0079
+</button>
+
+<!-- Section in the footer with a new button -->
+<section class="footer-bottom">
+    <div class="container" style="padding:10px 0px ;">
+        <div class="d-flex justify-content-center">
+            <div class="d-flex align-items-center justify-content-center flex-wrap" style="gap: 10px;">
+                <b>Start Becoming Debt-Free. Make the 15-Minute Call</b>
+                <button class="footer-btn2" onclick="showPhoneDialPopup('tel:+18773860079')">
+                    <i class="fas fa-phone-alt" style="margin-right: 14px;"></i>
+                    (877) 386-0079
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Phone dial popup -->
+<div id="phoneDialPopup" class="popup">
+    <p>Do you want to dial this number?</p>
+    <button onclick="dialPhoneNumber()">Dial</button>
+    <button onclick="closePhoneDialPopup()">Cancel</button>
+</div>
+
+    <!-- Bootstrap JS and Popper.js (if needed) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+<script>
+    let loader = document.getElementById("loader");
+    let progress = document.querySelector(".w3-light-grey");
+    let button = document.querySelector(".options");
+    let button2 = document.querySelector(".options2")
+    let blue_c = document.querySelector(".blue_c");
+    let strong = document.querySelector("strong");
+    let h2 = document.querySelector("h2");
+    let h3 = document.querySelector("h3");
+    let p = document.querySelector(".blue_p");
+    let call_us_b = document.querySelector(".call_us_b");
+
+    let count = 0;
+    let count2 = 0;
+    button.addEventListener("click", function () {
+        count++;
+        let elem = document.getElementById("myBar");
+        let greeBar = document.querySelector(".green");
+        let question = document.querySelector("#question");
+        greeBar.style.width = "40%";
+        greeBar.innerHTML = "40%";
+        question.innerHTML = "Do you have over $10,000 In Credit Card Debt? *";
+        if (count > 0) {
+            button.addEventListener("click", function () {
+                let elem = document.getElementById("myBar");
+                let greeBar = document.querySelector(".green");
+                let question = document.querySelector("#question");
+                greeBar.style.width = "60%";
+                greeBar.innerHTML = "60%";
+                question.style.display = "none";
+                button.style.display = "none";
+                button2.style.display = "none";
+                strong.style.display = "none";
+                h2.style.display = "none";
+
+                h3.style.display = "none";
+                call_us_b.style.display = "none";
+                blue_c.style.display = "block";
+                setTimeout(() => {
+                    p.innerHTML = "Matching with best option";
+                    greeBar.style.width = "80%";
+                    greeBar.innerHTML = "80%";
+                }, 2000);
+                setTimeout(() => {
+                    p.innerHTML = "Confirming Your Eligibility";
+                    loader.style.display = "block";
+                    p.style.color = "#666666";
+                    greeBar.style.width = "100%";
+                    greeBar.innerHTML = "100%";
+                }, 4000);
+                setTimeout(() => {
+                    progress.style.display = "none";
+                    p.style.display = "none";
+                    greeBar.style.width = "100%";
+                    loader.style.display = "none";
+                    greeBar.innerHTML = "100%";
+                    strong.style.display = "block";
+                    h2.style.display = "block";
+                    h3.style.display = "block";
+                    call_us_b.style.display = "block";
+                }, 5000);
+            })
+        }
+    });
+
+    button2.addEventListener("click", function () {
+        count2++;
+        let elem = document.getElementById("myBar");
+        let greeBar = document.querySelector(".green");
+        let question = document.querySelector("#question");
+        greeBar.style.width = "40%";
+        greeBar.innerHTML = "40%";
+        question.innerHTML = "Do you have over $10,000 In Credit Card Debt? *";
+        if (count2 > 0) {
+            button2.addEventListener("click", function () {
+                let elem = document.getElementById("myBar");
+                let greeBar = document.querySelector(".green");
+                let question = document.querySelector("#question");
+                greeBar.style.width = "60%";
+                greeBar.innerHTML = "60%";
+                question.style.display = "none";
+                button.style.display = "none";
+                button2.style.display = "none";
+                strong.style.display = "none";
+                h2.style.display = "none";
+                h3.style.display = "none";
+                call_us_b.style.display = "none";
+                blue_c.style.display = "block";
+                setTimeout(() => {
+                    p.innerHTML = "Matching with best option";
+                    greeBar.style.width = "80%";
+                    greeBar.innerHTML = "80%";
+                }, 2000);
+                setTimeout(() => {
+                    p.innerHTML = "Confirming Your Eligibility";
+                    greeBar.style.width = "100%";
+                    greeBar.innerHTML = "100%";
+                }, 4000);
+                setTimeout(() => {
+                    progress.style.display = "none";
+                    p.style.display = "none";
+                    greeBar.style.width = "100%";
+                    loader.style.display = "none";
+                    greeBar.innerHTML = "100%";
+                    strong.style.display = "block";
+                    h2.style.display = "block";
+                    h3.style.display = "block";
+                    call_us_b.style.display = "block";
+                }, 5000);
+            })
+        }
+    });
+
+//number
+function showPhoneDialPopup(phoneNumber) {
+            var popup = document.getElementById("phoneDialPopup");
+            popup.querySelector('p').innerHTML = 'Do you want to dial ' + phoneNumber + '?';
+            popup.style.display = "block";
+        }
+
+        // Function to close the phone dial popup
+        function closePhoneDialPopup() {
+            var popup = document.getElementById("phoneDialPopup");
+            popup.style.display = "none";
+        }
+
+        // Function to handle the "Dial" button click
+        function dialPhoneNumber() {
+            // You can implement the logic to initiate the phone call here
+            // For example, you can use the tel: protocol to open the phone app
+            var phoneNumber = document.getElementById("phoneDialPopup").querySelector('p').innerHTML.split(' ')[4];
+            window.location.href = phoneNumber;
+
+            // After initiating the call, close the popup
+            closePhoneDialPopup();
+        }
+</script>
+
+
+</html>
